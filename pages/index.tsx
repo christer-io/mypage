@@ -22,11 +22,11 @@ export default function Home ({ posts }: Props) {
       <div className="flex justify-between items-center text-white bg-green-900 border-y border-black py-10 lg:py-0">
         <div className="px-10 space-y-5">
           <h1 className="text-6xl max-w-xl font-serif">
-            <span className="decoration-4 ">ObiOne
+            <span className="decoration-4 ">How can the concept of
             </span>{" "} 
-            is Christer Gundersens personal playground</h1>
+            Open change the world?</h1>
             <h2>
-              My projects and ideas are all skattered out in this sandbox.
+             I belive that open is a mindset, a philosofy and metodology that has the power to change the world.
             </h2>
         </div>
         <div>
