@@ -6,7 +6,7 @@
 .pnp.js
 
 backendmypage/node_modules
-backendmypage/dist
+
 
 # testing
 /coverage
