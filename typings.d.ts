@@ -3,6 +3,7 @@ export interface Post {
     _createAt: string;
     title: string;
     body: [object];
-    slug: string;
+    slug: slug;
     mainImage: string;
+    description: string;
 }
