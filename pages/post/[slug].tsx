@@ -4,6 +4,7 @@ import { GetStaticProps } from "next";
 import Header from "../../components/Header";
 import PortableText from "react-portable-text"
 import { ChildProcess, ChildProcessWithoutNullStreams } from "child_process";
+import Head from "next/head";
 
 interface Props {
     post: Post;
@@ -12,6 +13,12 @@ interface Props {
 function Post({ post }: Props) {
     return (
     <main>
+        <Head>
+            <title>ObiOne</title>
+            <link rel="icon" href="/favicon.ico" />
+            <meta name="ObiOne" content="Christer Gundersens personal website" />
+        </Head>
+
         <Header />
         
         <img 
