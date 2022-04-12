@@ -16,11 +16,11 @@ function Post({ post }: Props) {
         <Head>
             <title>ObiOne</title>
             <link rel="icon" href="/favicon.ico" />
-            <meta name="ObiOne" content="Christer Gundersens personal website" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
 
         <Header />
-        
+
         <img 
         className="w-full h-40 object-cover"
         src={urlFor(post.mainImage).url()!} 
