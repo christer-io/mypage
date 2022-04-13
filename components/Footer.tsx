@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="pt-10">
     <footer className="bg-accent-1  border-t pl-10 border-accent-2  pb-7 " >
       
-      <div className="grid grid-cols-4 gap-4 pt-7 pb-7 text-emerald-900">
+      <div className="grid grid-cols-4 gap-4 pt-7 pb-7 text-darkgreen">
         <div>
           All text is licensed under CC-BY-SA-4.0. Images are licensed seperatly with license.
         </div>

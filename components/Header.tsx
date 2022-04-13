@@ -6,14 +6,14 @@ function Header() {
     <header className="flex justify-between p-5 max-w-7xl mx-auto">
         <div className="flex items-center space-x-5">
         <Link href="/">
-            <h1 className="text-3xl cursor-pointer">ObiOne.io</h1>
+            <h1 className="text-3xl cursor-pointer font-sans font-bold text-darkgreen">ObiOne.io</h1>
             </Link>
         
         </div>
         
-        <div className="hidden md:inline-flex items-center space-x-5 text-green-800" >
-        <h2 className="border px-4 py-1 rounded-full cursor-pointer border-green-600">Open Education</h2>
-            <h2 className="border px-4 py-1 rounded-full cursor-pointer border-green-600"><a href="/post/open-source">Open Source</a></h2>
+        <div className="hidden md:inline-flex items-center space-x-5 text-darkgreen" >
+        <h2 className="border px-4 py-1 rounded-full cursor-pointer border-darkgreen">Open Education</h2>
+            <h2 className="border px-4 py-1 rounded-full cursor-pointer border-darkgreen"><a href="/post/open-source">Open Source</a></h2>
         </div>
     
         
