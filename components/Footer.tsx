@@ -7,11 +7,11 @@ export default function Footer() {
       
       <div className="grid grid-cols-4 gap-4 pt-7 pb-7 text-darkgreen">
         <div>
-          All text is licensed under CC-BY-SA-4.0. Images are licensed seperatly with license.
+          All text is licensed under CC-BY-SA-4.0. Images are marked seperatly with license.
         </div>
         <div className='grid grid-cols-1 gap-2'>
           <div>This website is open source, developed using Next.js and Sanity.io</div>
-          <div>Check out the <a href="https://github.com/christer-io/mypage">GitHub repo</a></div>
+          <div>Check out the <span className="text-darkblue"> <a href="https://github.com/christer-io/mypage">GitHub repo</a></span></div>
         </div>
         <div>
         <div className='grid grid-cols-1 gap-1'>
