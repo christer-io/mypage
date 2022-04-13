@@ -3,7 +3,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '../components/Footer';
+import Bannerlow from '../components/Bannerlow';
 import Header from '../components/Header';
+import Banner from '../components/Banner';
 import { sanityClient, urlFor } from "../sanity";
 import { Post } from '../typings';
 
@@ -21,21 +23,7 @@ export default function Home ({ posts }: Props) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
       <Header />
-      <div className="flex justify-between items-center text-white bg-green-900 border-y border-black py-10 lg:py-0">
-        <div className="px-10 space-y-5">
-          <h1 className="text-6xl max-w-xl font-serif">
-            <span className="decoration-4 ">How can the concept of
-            </span>{" "} 
-            Open change the world?</h1>
-            <h2>
-             I belive that open is a mindset, a philosofy and metodology that has the power to change the world.
-            </h2>
-        </div>
-        <div>
-          <img className="hidden md:inline-flex lg:h-full"
-          src="https://oer.dev/wp-content/uploads/2022/04/oie_OnoSIK09KZ6b.png" alt="" />
-        </div>
-      </div>
+      <Banner />
       
       {/* posts */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6">
@@ -55,6 +43,7 @@ export default function Home ({ posts }: Props) {
           </Link>
         ))}
       </div>
+      <Bannerlow/>
       <Footer />
     </div>
     
@@ -62,7 +51,7 @@ export default function Home ({ posts }: Props) {
 };
 
 export const getServerSideProps = async () => {
-  const query = `*[_type == "post"]{_id, title, description, mainImage, body, slug}`
+  const query = `*[_type == "post" && tag =="blog"]{_id, title, description, mainImage, body, slug}`
  
   const posts = await sanityClient.fetch(query);
 

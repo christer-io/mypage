@@ -15,7 +15,7 @@ function Post({ post }: Props) {
     <main>
         <Head>
             <title>ObiOne</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
 

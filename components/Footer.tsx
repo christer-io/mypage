@@ -1,16 +1,29 @@
 
-function Footer() {
+
+export default function Footer() {
   return (
-   <div>
-     <hr className="max-w-xl my-5 mx-auto border border-green-900"/> 
-    <footer className="">
-        <div className="max-w-lg my-5 mx-auto">
-        All text is under CC-BY-SA-4.0 - all images are marked with license separately.
-       </div>
+    <div className="pt-10">
+    <footer className="bg-accent-1  border-t pl-10 border-accent-2  pb-7 " >
+      
+      <div className="grid grid-cols-4 gap-4 pt-7 pb-7 text-emerald-900">
+        <div>
+          All text is licensed under CC-BY-SA-4.0. Images are licensed seperatly with license.
+        </div>
+        <div className='grid grid-cols-1 gap-2'>
+          <div>This website is open source, developed using Next.js and Sanity.io</div>
+          <div>Check out the <a href="https://github.com/christer-io/mypage">GitHub repo</a></div>
+        </div>
+        <div>
+        <div className='grid grid-cols-1 gap-1'>
+          <div>About me</div>
+          <div>My projects</div>
+        </div>
+        </div>
+        <div></div>
         
+      </div>
+      
     </footer>
     </div>
   )
 }
-
-export default Footer

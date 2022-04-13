@@ -14,6 +14,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'tag',
+      title: 'Tag',
+      type: 'string',
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
