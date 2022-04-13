@@ -1,4 +1,4 @@
-# Personal plog/webpage
+# Personal blog/webpage
 This is a simple project whith some basic blog features and a frontpage.
 
 ## Next.js, Sanity.io and Tailwind
