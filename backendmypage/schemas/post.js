@@ -14,6 +14,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'ingress',
+      title: 'Ingress',
+      type: 'string',
+    },
+    {
       name: 'tag',
       title: 'Tag',
       type: 'string',

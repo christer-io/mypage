@@ -31,7 +31,7 @@ function Post({ post }: Props) {
                {post.title} 
             </h1>
             <h2 className="text-xl font-light text-gray-500">
-                {post.description}
+                {post.ingress}
             </h2>
             <PortableText 
             className="mt-10"
@@ -100,7 +100,8 @@ export const getStaticPaths = async () => {
         description,
         mainImage,
         slug,
-        body
+        body,
+        ingress,
           }`
 
           const post = await sanityClient.fetch(query, {

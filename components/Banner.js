@@ -15,7 +15,7 @@ function Banner() {
     </div>
     <div>
       <img className="hidden md:inline-flex lg:h-full"
-      src="https://oer.dev/wp-content/uploads/2022/04/oie_DplN5KGHctr2.png" alt="" />
+      src="https://oer.dev/wp-content/uploads/2022/04/oie_nsXBWoaz29tb.png" alt="" />
     </div>
   </div>
   )
