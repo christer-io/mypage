@@ -16,6 +16,7 @@ interface Props {
 export default function Home ({ posts }: Props) {
   console.log(posts);
   return (
+    <div className="bg-lightgray">
     <div className="max-w-7xl mx-auto">
       <Head>
         <title>ObiOne</title>
@@ -46,7 +47,7 @@ export default function Home ({ posts }: Props) {
       <Bannerlow/>
       <Footer />
     </div>
-    
+    </div>
   )
 };
 
