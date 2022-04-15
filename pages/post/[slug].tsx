@@ -43,7 +43,7 @@ function Post({ post }: Props) {
                     <h1 className="text-2xl font-bold my-3" {...props} />
                 ),
                 h2: (props: any) => (
-                    <h2 className="text-xl font-bold my-3" {...props} />
+                    <h2 className="text-xl font-bold my-3 text-darkblue" {...props} />
                 ),
                 normal: (props: any) => (
                     <h1 className="text-l my-4" {...props} />
