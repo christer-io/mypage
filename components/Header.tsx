@@ -1,4 +1,5 @@
 import Link from "next/link"
+import AccountMenu from "./menu"
 
 
 function Header() {
@@ -14,6 +15,9 @@ function Header() {
         <div className="hidden md:inline-flex items-center space-x-5 text-white" >
             <h2 className="border px-4 py-1 rounded-full cursor-pointer bg-blue font-sans border-white">Open Education</h2>
             <h2 className="border px-4 py-1 rounded-full cursor-pointer bg-blue font-sans border-white"><a href="/post/open-source">Open Source</a></h2>  
+        </div>
+        <div>
+            <AccountMenu />
         </div>
        
         
