@@ -13,6 +13,7 @@ module.exports = {
       current: 'currentColor',
       'white': '#ffffff',
       'blue': '#5090D3',
+      'buttonblue': '#4267B2',
       'darkblue': '#001E3C',
       'darkdarkblue': '#0A1929',
       'midnight': '#121063',
