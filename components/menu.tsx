@@ -12,6 +12,7 @@ import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 import MenuIcon from '@mui/icons-material/Menu';
+import Link from 'next/link';
 
 export default function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -73,30 +74,33 @@ export default function AccountMenu() {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        <MenuItem>
-          <Avatar /> Profile
+        <MenuItem >
+            <Link href={"/post/open-source"}>
+              Open Source
+            </Link>
         </MenuItem>
         <MenuItem>
-          <Avatar /> My account
+          Open Licenses 
+        </MenuItem>
+        <MenuItem>
+          Open Educational Resources
+        </MenuItem>
+        <MenuItem>
+          Frequently asked questions (FAQ)
         </MenuItem>
         <Divider />
-        <MenuItem>
-          <ListItemIcon>
-            <PersonAdd fontSize="small" />
-          </ListItemIcon>
-          Add another account
+        <MenuItem >
+            <Link href={"/post/about"}>
+              About
+            </Link>
         </MenuItem>
         <MenuItem>
           <ListItemIcon>
             <Settings fontSize="small" />
           </ListItemIcon>
-          Settings
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Logout fontSize="small" />
-          </ListItemIcon>
-          Logout
+           <Link href={"https://obione.sanity.studio/"}>
+            Admin
+           </Link>
         </MenuItem>
       </Menu>
     </React.Fragment>
