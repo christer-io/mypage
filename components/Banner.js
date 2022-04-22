@@ -6,11 +6,11 @@ function Banner() {
     <div className="flex justify-between items-center text-white bg-darkblue border-y border-black py-10 lg:py-0 rounded-lg">
     <div className="px-10 space-y-5">
       <h1 className="text-4xl sm:text-6xl max-w-xl font-sans">
-        <span className="decoration-4 text-blue">How can the concept
+        <span className="decoration-4 text-blue">Open source is a methodology 
         </span>{" "} 
-        of Open change the world?</h1>
+        and a social movement!</h1>
         <h2 className="text-lightgray">
-         I belive that open is a mindset, a philosofy and metodology that has the power to change the world.
+         By embracing an open mindset, philosofy and metodology we can solve the global grand challanges in a more effective and democratic way.
         </h2>
     </div>
     <div>
@@ -22,3 +22,6 @@ function Banner() {
 }
 
 export default Banner
+
+
+  
