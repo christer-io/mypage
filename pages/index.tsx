@@ -49,7 +49,9 @@ export default function Home ({ posts }: Props) {
           </Link>
         ))}
       </div>
+    
       <Bannerlow/>
+          
     </div>
     <Footer />
     </div>
