@@ -25,7 +25,9 @@ export default function Home ({ posts }: Props) {
       <Head>
         <title>ObiOne</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="obione" content="Information about open source, open content"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="keywords" content="open source, open data, open content"></meta>
+        <meta name="description" content="Open source, open data, open education and digital public goods"></meta>
       </Head>
       <Header />
       <Banner />
