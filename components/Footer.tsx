@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className='grid grid-cols-1 gap-2'>
           <div>This website is open source, developed using Next.js and Sanity.io</div>
-          <div>Check out the <span className="text-white"> <a href="https://github.com/christer-io/mypage">GitHub repo</a></span></div>
+          <div>Check out the <span className="text-white"> <a href="https://github.com/christer-io/mypage">GitHub repo.</a></span></div>
         </div>
         <div>
         <div className='grid grid-cols-1 gap-1'>

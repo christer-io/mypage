@@ -8,15 +8,11 @@ function Header() {
         <div className="flex items-center space-x-5">
             <Link href="/">
                 <h1 className="text-3xl cursor-pointer font-sans font-bold text-blue">Obi<span className="text-darkdarkblue">One.io</span></h1>
-            </Link>
-            
-        </div>
-        
+            </Link>     
+        </div>    
         <div>
-            <AccountMenu />
-        </div>
-       
-        
+            <AccountMenu/>
+        </div>  
     </header>
   )
 }

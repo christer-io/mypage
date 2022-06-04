@@ -17,6 +17,8 @@ function Post({ post }: Props) {
             <title>ObiOne</title>
             <link rel="icon" href="/" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <meta name="keywords" content="open source, open data, open content"></meta>
+            <meta name="description" content="Open source, open data, open education and digital public goods"></meta>
         </Head>
 
         <Header />
