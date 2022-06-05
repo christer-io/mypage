@@ -8,11 +8,11 @@ function Banner() {
       <h1 className="text-5xl sm:text-7xl xl:text-8xl font-sans">
         <span className="decoration-4 text-darkdarkblue ">Open source is a methodology 
         </span>{" "} and a social movement!</h1>
-        <h2 className="text-darkdarkblue">
+        <h2 className="text-darkdarkblue pl-10 pr-10">
          With an open philosofy and metodology we can solve the global grand challanges in more effective, transparent and democratic ways.
         </h2>
-        <div className="space-x-3 pt-5 pb-5">
-          <button class="bg-blue-500 bg-buttonblue text-white font-bold py-2 px-4 rounded pl-10 pr-10 space-y-1">
+        <div className="space-x-3 space-y-2 pt-5 pb-5">
+          <button class="bg-blue-500 bg-buttonblue text-white font-bold py-2 px-4 rounded pl-10 pr-10 ">
             Open source
           </button>
           <button class="bg-blue-500 bg-buttonblue text-white font-bold py-2 px-4 rounded pl-10 pr-10 ">
