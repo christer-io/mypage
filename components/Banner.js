@@ -12,10 +12,10 @@ function Banner() {
          With an philosofy and metodology we can solve the global grand challanges in more effective, transparent and democratic ways.
         </h2>
         <div className="space-x-3 pt-5 pb-5">
-          <button class="bg-blue-500 bg-buttonblue text-white font-bold py-2 px-4 rounded pl-10 pr-10">
+          <button class="bg-blue-500 bg-buttonblue text-white font-bold py-2 px-4 rounded pl-10 pr-10 pb-2">
             Open source
           </button>
-          <button class="bg-blue-500 bg-buttonblue text-white font-bold py-2 px-4 rounded pl-10 pr-10">
+          <button class="bg-blue-500 bg-buttonblue text-white font-bold py-2 px-4 rounded pl-10 pr-10 ">
             Button
           </button>
         </div>
