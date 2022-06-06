@@ -80,15 +80,15 @@ export default function AccountMenu() {
             </Link>
         </MenuItem>
         <MenuItem>
-          Open Licenses 
+            <Link href={"/post/open-source"}>
+              Open Licenses
+            </Link>  
         </MenuItem>
         <MenuItem>
-          Open Educational Resources
+            <Link href={"/post/open-source"}>
+            Open Educational Resources
+            </Link>
         </MenuItem>
-        <MenuItem>
-          Frequently asked questions (FAQ)
-        </MenuItem>
-        <Divider />
         <MenuItem >
             <Link href={"/post/about"}>
               About
