@@ -3,14 +3,15 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '../components/Footer';
-import Bannerlow from '../components/Bannerlow';
+import Bannerlow from '../components/BannerSmall';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
 import Maintopics from '../components/Maintopics';
 import { sanityClient, urlFor } from "../sanity";
 import { Post } from '../typings';
-
-
+import BannerSmall from '../components/BannerSmall';
+import DownloadButton from '../components/DownloadButton';
+import StandardButton from '../components/StandardButton';
 
 
 interface Props {
@@ -30,7 +31,8 @@ export default function Home ({ posts }: Props) {
         <meta name="description" content="Open source, open data, open education and digital public goods"></meta>
       </Head>
       <Header />
-      <Banner />
+      <Banner part1="Open source is a methodology" part2="and a social movement!" subtext="With an open philosofy and metodology we can solve the global grand challanges in more effective, transparent and democratic ways."/>
+
       <div className='text-3xl text-center font-sans text-darkdarkblue'> 
       <h2>The elements of open </h2> 
       <h3 className="text-base">The open movement is built on a set of core elements.</h3></div>
@@ -54,8 +56,8 @@ export default function Home ({ posts }: Props) {
         ))}
       </div>
     
-      <Bannerlow/>
-      
+      <BannerSmall part1="Open source" part2="a development methodology" part3="a development methodology" />
+      <DownloadButton buttontext="Download as document"/>
           
     </div>
     <Footer />
