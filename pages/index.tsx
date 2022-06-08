@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 import Bannerlow from '../components/BannerSmall';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
-import Maintopics from '../components/Maintopics';
 import { sanityClient, urlFor } from "../sanity";
 import { Post } from '../typings';
 import BannerSmall from '../components/BannerSmall';
@@ -33,7 +32,7 @@ export default function Home ({ posts }: Props) {
       <Header />
       <Banner part1="Open source is a methodology" part2="and a social movement!" subtext="With an open philosofy and metodology we can solve the global grand challanges in more effective, transparent and democratic ways."/>
 
-      <div className='text-3xl text-center font-sans text-darkdarkblue'> 
+      <div className='text-3xl text-left font-sans text-darkdarkblue pl-10'> 
       <h2>The elements of open </h2> 
       <h3 className="text-base">The open movement is built on a set of core elements.</h3></div>
       {/* posts */}
